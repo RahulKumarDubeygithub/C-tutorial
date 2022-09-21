@@ -11,7 +11,7 @@ binary_searchR(int nums[],int low,int high,int target)
     {
         return mid;
     }
-    // discard all elements in the right search space including the middle element
+    // discard all elements in the right search space including the middle element2
     else if(target<nums[mid])
     {
         binary_searchR(nums,low,mid-1,target);
